@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Rewrite _next/static/ to ./_next/static/
+  RewriteRule ^_next/static/(.*)$ ./_next/static/$1 [L]
+  
+  # Rewrite /static/ to ./static/ (if you have other static assets)
+  RewriteRule ^static/(.*)$ ./static/$1 [L]
+
+  # Rewrite /assets to ./assets
+  RewriteRule ^assets/(.*)$ ./assets/$1 [L]
+</IfModule> 

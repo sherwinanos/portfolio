@@ -1,0 +1,46 @@
+[
+  {
+    "projName": "Elite Autocenter",
+    "projCategory": "Wordpress CMS",
+    "projCountry": "Philippines",
+    "projUnder": "Freelance",
+    "projStacks": ["HTML", "CSS", "WordPress", "Elementor", "Photoshop"],
+    "projUrl": "http://www.elite-autocenter.com",
+    "projDescription": "",
+    "projImage": "/assets/projects/web-elitegarage.webp",
+    "projThumbnail": "/assets/projects/web-elitegarage-mockup.webp"
+  },
+  {
+    "projName": "Zip Realty",
+    "projCategory": "Wordpress CMS",
+    "projCountry": "Australia",
+    "projUnder": "Freelance",
+    "projStacks": ["HTML", "CSS", "WordPress", "Elementor", "Photoshop"],
+    "projUrl": "https://ziprealty.com.au/",
+    "projDescription": "Lorem ipsum dolor sit amet",
+    "projImage": "/assets/projects/web-ziprealty.webp",
+    "projThumbnail": "/assets/projects/web-ziprealty-mockup.webp"
+  },
+  {
+    "projName": "Fluro",
+    "projCategory": "Website Design",
+    "projCountry": "Australia",
+    "projUnder": "Freelance",
+    "projStacks": ["Figma", "Photoshop", "Illustrator"],
+    "projUrl": "",
+    "projDescription": "",
+    "projImage": "/assets/projects/web-fluro.webp",
+    "projThumbnail": "/assets/projects/web-fluro-mockup.webp"
+  },
+  {
+    "projName": "Circles.Life SG",
+    "projCategory": "Headless CMS",
+    "projCountry": "Singapore",
+    "projUnder": "Circles Life Technologies",
+    "projStacks": ["ReactJS", "Typescript", "Chakra UI", "WordPress", "Figma"],
+    "projUrl": "http://www.circles.life/sg/",
+    "projDescription": "",
+    "projImage": "/assets/projects/web-clsg.webp",
+    "projThumbnail": "/assets/projects/web-clsg-mockup.webp"
+  }
+]
