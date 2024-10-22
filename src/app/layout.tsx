@@ -16,12 +16,27 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
 });
 
-  const title = ""
-  const description = "Lorem ipsum dolor sit amet"
+const seoTitle = "Filipino Web Designer and Developer - Sherwin Anos"
+const seoDesc = "Get high-quality, affordable website design and development services from an experienced professional in the Philippines."
+const seoUrl = "https://sherwinanos.vercel.app/"
 
 export const metadata: Metadata = {
-  title: "Filipino Web Designer and Developer - Sherwin Anos",
-  description: "Get high-quality, affordable website design and development services from an experienced professional in the Philippines.",
+  title: seoTitle,
+  description: seoDesc,
+  openGraph: {
+    title: seoTitle,
+    description: seoDesc,
+    url: seoUrl,
+    siteName: "Sherwin Anos",
+    images: [{
+      url: seoUrl+'assets/og.webp',
+      width: 1200,
+      height: 630,
+      alt:"Sherwin Anos OG image"
+    }],
+    locale: "en_US",
+    type: "website"
+  }
 };
 
 export default function RootLayout({
