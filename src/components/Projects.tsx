@@ -31,6 +31,8 @@ const Projects = () => {
                     src={item.projThumbnail} 
                     alt={`${item.projName} image`} 
                     className="w-[100%] rounded-lg"
+                    width="340"
+                    height="194"
                   />
                   <h4 className="text-primary mt-4 mb-">{item.projName}</h4>
                   <p className="text-tertiary-lightest uppercase text-sm">{item.projCategory}</p>

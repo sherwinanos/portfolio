@@ -16,9 +16,12 @@ const montserrat = Montserrat({
   variable: '--font-montserrat',
 });
 
+  const title = ""
+  const description = "Lorem ipsum dolor sit amet"
+
 export const metadata: Metadata = {
-  title: "Sherwin Anos",
-  description: "NextJS + Shadcn + Tailwind",
+  title: "Filipino Web Designer and Developer - Sherwin Anos",
+  description: "Get high-quality, affordable website design and development services from an experienced professional in the Philippines.",
 };
 
 export default function RootLayout({
