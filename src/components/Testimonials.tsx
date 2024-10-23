@@ -20,7 +20,7 @@ const Testimonials = () => {
     {
       testimonial: "Sherwin’s combination of design and technical skills transformed our website. We’ve seen better user engagement and faster load times.",
       client: "Dwight Rabena",
-      designation: "SEO Growth Strategist",
+      designation: "SEO Consultant",
       avatar: "/assets/avatar/dwight-rabena.webp",
     },
     {
