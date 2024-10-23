@@ -40,8 +40,8 @@ const Projects = () => {
               </DialogTrigger>
 
               <DialogContent className="bg-secondary-dark border-0 max-w-screen-xl max-h-full">
-                <div className="flex py-6 px-4">
-                  <div className="w-4/12">
+                <div className="lg:flex lg:flex-row py-6 px-4">
+                  <div className="hidden w-full lg:block lg:w-4/12">
                     <div>
                       <h3>{item.projName}</h3>
                       <p className="uppercase tracking-widest mt-2 text-sm">{item.projCountry}</p>
@@ -87,8 +87,26 @@ const Projects = () => {
                     </div>
                   </div>
                   
-                  <div className="w-8/12 h-[720px] overflow-y-scroll">
+                  <div className="w-full lg:w-8/12 h-[720px] overflow-y-scroll">
+                    <div className="lg:hidden text-center">
+                      <h3>{item.projName}</h3>
+                      <p className="uppercase tracking-widest mt-1 mb-4 text-sm">{item.projCountry}</p>
+                    </div>
+
                     <img src={item.projImage} alt={`${item.projName}`} />
+
+                    <div className="mt-6 text-center">
+                      <a 
+                        href={item.projUrl ? item.projUrl : ''} 
+                        className={item.projUrl
+                          ? "btn btn-small btn-icon btn-primary"
+                          : "hidden"
+                        }
+                        target="_blank"
+                      >
+                        Launch {item.projName} <TfiNewWindow />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </DialogContent>
