@@ -6,8 +6,8 @@ import { Link, scroller } from "react-scroll";
 const Hero = () => {
   const componentData = {
     eyebrow: "Hello, I'm Sherwin Anos",
-    headline: "Creative Filipino Web Designer Creating Custom Professional Websites",
-    subHeadline: "I am a talented web designer and front-end developer that creates visually appealing, responsive websites designed to boost user interaction with exceptional results. Working together to create a website that suits your brand and objectives."
+    headline: "Creative Filipino Web Designer and Front End Developer",
+    subHeadline: "I am a talented website designer and front end developer that creates visually appealing, responsive websites designed to boost user interaction with exceptional results. Working together to create a website that suits your brand and objectives."
   }
 
   const handleScroll = (
