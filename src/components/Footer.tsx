@@ -45,7 +45,8 @@ const Footer = () => {
             <p className="uppercase">Looking for a web designer and developer</p>
             <h2 className="mb-4">Let's Build Your Website Together</h2>
             <p className="mb-4">Ready to create a website that’s both beautiful and effective? Let’s collaborate on a project that brings your brand’s vision and goals to life.</p>
-            <p>To get started, <strong>book a free consultation using the Google Calendar scheduler</strong>, and let's start crafting something amazing together!</p>
+            <p className="mb-4">To get started, <strong>book a free consultation using the Google Calendar scheduler</strong>, and let's start crafting something amazing together!</p>
+            <p>After booking, feel free to <a href="mailto:sherwin.anos@gmail.com?subject=Web%20Design%20and%20Development%20Consultation" className="text-primary underline">reach out via email</a> for any additional questions.</p>
           </div>
           
           {/* <CalendlyWidget /> */}
