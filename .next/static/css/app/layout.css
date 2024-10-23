@@ -1117,6 +1117,9 @@ video {
 .whitespace-nowrap {
   white-space: nowrap;
 }
+.rounded-2xl {
+  border-radius: 1rem;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1131,9 +1134,6 @@ video {
 }
 .rounded-xl {
   border-radius: 0.75rem;
-}
-.rounded-2xl {
-  border-radius: 1rem;
 }
 .rounded-t-\[10px\] {
   border-top-left-radius: 10px;
@@ -1524,12 +1524,42 @@ h6, .h6 {
 
 /* SECTION: HEADER */
 #header nav a {
+  color: var(--color-primary);
   font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 #header nav a:hover {
-  color: var(--color-primary);
-  border-bottom: 1px solid var(--color-primary);
+  color: var(--color-tertiary);
+  border-bottom: 1px solid var(--color-tertiary);
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#header nav .btn-small {
+  color: var(--color-secondary);
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#header nav .btn-small:hover {
+  color: var(--color-secondary);
+  transition-property: all;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 300ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 

@@ -49,7 +49,7 @@ const Header = () => {
           ))}
 
           <Link 
-            to="#contact"
+            to="contact"
             smooth={true} 
             duration={500} 
             onClick={handleMenuClick}
