@@ -41,7 +41,7 @@ const About = () => {
           <p dangerouslySetInnerHTML={{ __html: headlineData.subHeadline }} />
           
 
-            <a href="/assets/resume.pdf" className="btn btn-icon btn-primary mt-8" target="_blank">Download resume <TfiNewWindow /></a>
+            <a href="/resume.pdf" className="btn btn-icon btn-primary mt-8" target="_blank">Download resume <TfiNewWindow /></a>
             <a href="#testimonials" className="btn btn-primary-outline mt-8 ml-4" onClick={(e) => handleScroll(e, '#testimonials')}>See clients feedback</a>
         </div>
         <div className="lg:w-5/12">

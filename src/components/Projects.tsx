@@ -97,7 +97,7 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center mt-6 lg:mt-12">
-          <a href="/assets/portfolio.pdf" className="btn btn-icon btn-primary" target="_blank">View my portfolio <TfiNewWindow /></a>
+          <a href="/portfolio.pdf" className="btn btn-icon btn-primary" target="_blank">View my portfolio <TfiNewWindow /></a>
         </div>
       </div>
     </div>
