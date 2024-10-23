@@ -3,6 +3,7 @@
 import SmoothLink from "./custom/SmoothLink"
 import CalendlyWidget from "./custom/CalendlyWidget"
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
+import GoogleCalendar from "./custom/GoogleCalendar";
 
 const Footer = () => {
   const navData = [
@@ -44,10 +45,13 @@ const Footer = () => {
             <p className="uppercase">Looking for a web designer and developer</p>
             <h2 className="mb-4">Let's Build Your Website Together</h2>
             <p className="mb-4">Ready to create a website that’s both beautiful and effective? Let’s collaborate on a project that brings your brand’s vision and goals to life.</p>
-            <p>To get started, <strong>book a free consultation using the Calendly scheduler</strong>, and let's start crafting something amazing together!</p>
+            <p>To get started, <strong>book a free consultation using the Google Calendar scheduler</strong>, and let's start crafting something amazing together!</p>
           </div>
           
-          <CalendlyWidget />
+          {/* <CalendlyWidget /> */}
+          <div className="bg-tertiary rounded-2xl">
+            <GoogleCalendar />
+          </div>
         </div>
       </div>
 
