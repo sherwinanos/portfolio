@@ -7,7 +7,7 @@ User-agent: Googlebot
 Disallow: /admin
 
 # Host
-Host: https://sherwinanos.vercel.app
+Host: https://www.sherwinanos.com
 
 # Sitemaps
-Sitemap: https://sherwinanos.vercel.app/sitemap.xml
+Sitemap: https://www.sherwinanos.com/sitemap.xml

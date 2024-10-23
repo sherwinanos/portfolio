@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 
 const seoTitle = "Filipino Web Designer and Developer - Sherwin Anos"
 const seoDesc = "Get high-quality, affordable website design and development services from an experienced professional in the Philippines."
-const seoUrl = "https://sherwinanos.vercel.app/"
+const seoUrl = "https://www.sherwinanos.com/"
 
 export const metadata: Metadata = {
   title: seoTitle,

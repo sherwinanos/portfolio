@@ -1,6 +1,6 @@
 // next-sitemap.config.js
 module.exports = {
-  siteUrl: 'https://sherwinanos.vercel.app', // Replace with your actual site URL
+  siteUrl: 'https://www.sherwinanos.com', // Replace with your actual site URL
   generateRobotsTxt: true, // Generates robots.txt file
   robotsTxtOptions: {
     policies: [
