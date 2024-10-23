@@ -88,25 +88,27 @@ const Projects = () => {
                   </div>
                   
                   <div className="w-full lg:w-8/12 h-[720px] overflow-y-scroll">
-                    <div className="lg:hidden text-center">
-                      <h3>{item.projName}</h3>
-                      <p className="uppercase tracking-widest mt-1 mb-4 text-sm">{item.projCountry}</p>
+                    <div className="flex items-center justify-between mb-4 lg:hidden">
+                      <div className="">
+                        <h3>{item.projName}</h3>
+                        <p className="uppercase tracking-widest text-sm">{item.projCountry}</p>
+                      </div>
+
+                      <div className="">
+                        <a 
+                          href={item.projUrl ? item.projUrl : ''} 
+                          className={item.projUrl
+                            ? "btn btn-small btn-icon btn-primary"
+                            : "hidden"
+                          }
+                          target="_blank"
+                        >
+                          <TfiNewWindow />
+                        </a>
+                      </div>
                     </div>
 
                     <img src={item.projImage} alt={`${item.projName}`} />
-
-                    <div className="mt-6 text-center">
-                      <a 
-                        href={item.projUrl ? item.projUrl : ''} 
-                        className={item.projUrl
-                          ? "btn btn-small btn-icon btn-primary"
-                          : "hidden"
-                        }
-                        target="_blank"
-                      >
-                        Launch {item.projName} <TfiNewWindow />
-                      </a>
-                    </div>
                   </div>
                 </div>
               </DialogContent>
