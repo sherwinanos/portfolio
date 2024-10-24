@@ -1,8 +1,6 @@
 "use client"
 
-import SmoothLink from "./custom/SmoothLink"
-import CalendlyWidget from "./custom/CalendlyWidget"
-import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 import GoogleCalendar from "./custom/GoogleCalendar";
 
 const Footer = () => {
@@ -64,7 +62,7 @@ const Footer = () => {
             {/* <a href="#" target="_blank"><FaFacebookSquare /></a> */}
           </div>
 
-          <div className="nav flex flex-col lg:flex-row gap-4 lg:gap-2 lg:gap-6 items-center justify-center mt-6 mb-4">
+          <div className="nav flex flex-col lg:flex-row gap-4 lg:gap-6 items-center justify-center mt-6 mb-4">
             {navData.map((nav, i) => (
               <a 
                 key={i} 
