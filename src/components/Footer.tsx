@@ -58,7 +58,7 @@ const Footer = () => {
         <div className="container mx-auto text-center">
           <div className="social flex gap-4 text-4xl items-center justify-center">
             <a href="https://www.linkedin.com/in/sherwinanos/" target="_blank"><FaLinkedin /></a>
-            <a href="https://github.com/sherwinanos" target="_blank"><FaGithubSquare /></a>
+            {/* <a href="https://github.com/sherwinanos" target="_blank"><FaGithubSquare /></a> */}
             {/* <a href="#" target="_blank"><FaFacebookSquare /></a> */}
           </div>
 
