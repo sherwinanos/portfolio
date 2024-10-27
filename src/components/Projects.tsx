@@ -81,6 +81,7 @@ const Projects = () => {
                           : "hidden"
                         }
                         target="_blank"
+                        aria-label="Launch"
                       >
                         Launch {item.projName} <TfiNewWindow />
                       </a>
@@ -117,7 +118,7 @@ const Projects = () => {
         </div>
 
         <div className="flex justify-center mt-6 lg:mt-12">
-          <a href="/portfolio.pdf" className="btn btn-icon btn-primary" target="_blank">View my portfolio <TfiNewWindow /></a>
+          <a href="/portfolio.pdf" className="btn btn-icon btn-primary" target="_blank" aria-label="View my portfolio">View my portfolio <TfiNewWindow /></a>
         </div>
       </div>
     </div>

@@ -39,8 +39,8 @@ const Hero = () => {
         <p className="pt-6 pb-8 lg:pb-12 text-xl">{componentData.subHeadline}</p>
 
         <div className="flex flex-col lg:flex-row gap-4 justify-center lg:justify-normal">
-          <a href="#contact" className="btn btn-primary" onClick={(e) => handleScroll(e, '#contact')}>Schedule a consultation today</a>
-          <a href="#projects" className="btn btn-primary-outline" onClick={(e) => handleScroll(e, '#projects')}>See my recent projects</a>
+          <a href="#contact" className="btn btn-primary" onClick={(e) => handleScroll(e, '#contact')} aria-label="Schedule a consultation today">Schedule a consultation today</a>
+          <a href="#projects" className="btn btn-primary-outline" onClick={(e) => handleScroll(e, '#projects')}aria-label="See my recent projects">See my recent projects</a>
         </div>
       </div>
 

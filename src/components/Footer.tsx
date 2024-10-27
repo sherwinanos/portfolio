@@ -44,7 +44,7 @@ const Footer = () => {
             <h2 className="mb-4">Let's Build Your Website Together</h2>
             <p className="mb-4">Ready to create a website that’s both beautiful and effective? Let’s collaborate on a project that brings your brand’s vision and goals to life.</p>
             <p className="mb-4">To get started, <strong>book a free consultation using the Google Calendar scheduler</strong>, and let's start crafting something amazing together!</p>
-            <p>After booking, feel free to <a href="mailto:sherwin.anos@gmail.com?subject=Web%20Design%20and%20Development%20Consultation" className="text-primary underline">reach out via email</a> for any additional questions.</p>
+            <p>After booking, feel free to <a href="mailto:sherwin.anos@gmail.com?subject=Web%20Design%20and%20Development%20Consultation" className="text-primary underline" aria-label="Reach out via email">reach out via email</a> for any additional questions.</p>
           </div>
           
           {/* <CalendlyWidget /> */}
@@ -57,9 +57,7 @@ const Footer = () => {
       <footer id="footer" className="section-dark pb-8 px-8 lg:px-0">
         <div className="container mx-auto text-center">
           <div className="social flex gap-4 text-4xl items-center justify-center">
-            <a href="https://www.linkedin.com/in/sherwinanos/" target="_blank"><FaLinkedin /></a>
-            {/* <a href="https://github.com/sherwinanos" target="_blank"><FaGithubSquare /></a> */}
-            {/* <a href="#" target="_blank"><FaFacebookSquare /></a> */}
+            <a href="https://www.linkedin.com/in/sherwinanos/" target="_blank" aria-label="Linkedin"><FaLinkedin /></a>
           </div>
 
           <div className="nav flex flex-col lg:flex-row gap-4 lg:gap-6 items-center justify-center mt-6 mb-4">
@@ -68,10 +66,11 @@ const Footer = () => {
                 key={i} 
                 href={nav.href} 
                 onClick={(e) => handleScroll(e, '#'+nav.href)}
+                aria-label={nav.textContent}
               >{nav.textContent}</a>
             ))}
           </div>
-          <div className="copyright text-sm">© {year} Sherwin Anos. All Rights Reserved.</div>
+          <div className="copyright text-sm">© {year} <a href="/" className="text-tertiary" aria-label="Sherwin Anos">Sherwin Anos</a>. All Rights Reserved.</div>
         </div>
       </footer>
     </>

@@ -67,7 +67,7 @@ const Services = () => {
         </div>
 
         <div className="flex justify-center mt-6 lg:mt-12">
-          <a href="#contact" className="btn btn-primary" onClick={(e) => handleScroll(e, '#contact')}>Let’s discuss your project</a>
+          <a href="#contact" className="btn btn-primary" onClick={(e) => handleScroll(e, '#contact')} aria-label="Let's discuss your project">Let’s discuss your project</a>
         </div>
       </div>
     </div>

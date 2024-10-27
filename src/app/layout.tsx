@@ -8,6 +8,7 @@ import { useEffect } from 'react';
 import { initGA, logPageView } from '@/lib/ga';
 import Script from 'next/script';
 import { metadata } from './metadata'
+import BackToTop from "@/components/custom/BackToTop";
 
 const hind = Hind({
   subsets: ['latin'],
@@ -74,6 +75,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <BackToTop />
       </body>
     </html>
   );
