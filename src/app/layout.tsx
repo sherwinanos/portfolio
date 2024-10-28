@@ -1,4 +1,4 @@
-"use client"; // Client Component directive
+"use client";
 
 import "./globals.css";
 import { Hind, Montserrat } from "@next/font/google";

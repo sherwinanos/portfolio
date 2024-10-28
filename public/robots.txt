@@ -5,6 +5,13 @@ Allow: /
 # Googlebot
 User-agent: Googlebot
 Disallow: /admin
+Disallow: /*?p=
+Disallow: /temp/
+Disallow: /*.json$
+Disallow: /*_buildManifest.js$
+Disallow: /*_middlewareManifest.js$
+Disallow: /*_ssgManifest.js$
+Disallow: /*.js$
 
 # Host
 Host: https://www.sherwinanos.com
