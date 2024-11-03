@@ -71,6 +71,20 @@ export default function RootLayout({
             });
           `}
         </Script>
+
+        {/* StatCounter Script */}
+        <Script id="statcounter-script">
+          {`
+            var sc_project=6014434; 
+            var sc_invisible=1; 
+            var sc_security="d2af637a"; 
+          `}
+        </Script>
+        <Script
+          src="https://www.statcounter.com/counter/counter.js"
+          strategy="afterInteractive"
+          async
+        />
       </head>
       <body className={`${montserrat.variable} ${hind.variable} antialiased`}>
         <Header />
