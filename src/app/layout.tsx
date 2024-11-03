@@ -56,6 +56,8 @@ export default function RootLayout({
         <link rel="canonical" href={metadata.alternates.canonical} />
         <link rel="alternate" href={metadata.alternates.canonical} hrefLang="x-default" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(metadata.structuredData) }} />
+        
+        {/* GA4 Script */}
         <Script
           id="ga4-script"
           strategy="afterInteractive"
@@ -91,6 +93,24 @@ export default function RootLayout({
         {children}
         <Footer />
         <BackToTop />
+
+        <noscript>
+          <div className="statcounter">
+            <a
+              title="Web Analytics"
+              href="https://statcounter.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="statcounter"
+                src="https://c.statcounter.com/6014434/0/d2af637a/1/"
+                alt="Web Analytics"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
+            </a>
+          </div>
+        </noscript>
       </body>
     </html>
   );
