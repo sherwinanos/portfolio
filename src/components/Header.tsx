@@ -38,8 +38,9 @@ const Header = () => {
         <nav className="lg:flex items-center gap-8 hidden">
           {navData.map(( nav, i ) => (
             <Link 
-              aria-label={nav.textContent}
               key={i}
+              href={nav.href}
+              aria-label={nav.textContent}
               to={nav.textContent.toLowerCase()}
               smooth={true} 
               duration={500} 
@@ -73,6 +74,7 @@ const Header = () => {
                   {navData.map(( nav, i ) => (
                     <Link 
                       key={i}
+                      href={nav.href}
                       aria-label={nav.textContent}
                       to={nav.textContent.toLowerCase()}
                       smooth={true} 
