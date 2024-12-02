@@ -57,6 +57,24 @@ export default function RootLayout({
         <link rel="alternate" href={metadata.alternates.canonical} hrefLang="x-default" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(metadata.structuredData) }} />
         
+        {/* Google Tag Manager Script */}
+        <Script 
+          id="gtag-js"
+          src="https://www.googletagmanager.com/gtag/js?id=G-8ENNG3DMY1"
+          async 
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+        >
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-8ENNG3DMY1');
+          `}
+        </Script>
+
         {/* GA4 Script */}
         <Script
           id="ga4-script"
