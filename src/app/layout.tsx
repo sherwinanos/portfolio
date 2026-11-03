@@ -92,6 +92,9 @@ export default function RootLayout({
           `}
         </Script>
 
+        {/* AdSense */}
+         <meta name="google-adsense-account" content="ca-pub-6265665269288793"></meta>
+
         {/* StatCounter Script */}
         <Script id="statcounter-script">
           {`
