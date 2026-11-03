@@ -53,6 +53,7 @@ export default function RootLayout({
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:site_name" content={metadata.openGraph.siteName} />
         <meta property="og:image" content={metadata.openGraph.images[0].url} />
+        <meta name="google-adsense-account" content="ca-pub-6265665269288793" />
         <link rel="canonical" href={metadata.alternates.canonical} />
         <link rel="alternate" href={metadata.alternates.canonical} hrefLang="x-default" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(metadata.structuredData) }} />
